@@ -25,12 +25,23 @@ document.writeln(
 );
 
 document.writeln(
+	'<script '
+	+ 'src="'
+	+ frameworkPath() + "js/jquery.mask.min.js"
+	+ '"></script>'
+);
+
+document.writeln(
 	'<link '
 	+ 'type="text/css" '
 	+ 'rel="stylesheet" '
 	+ 'href="'
 	+ frameworkPath() + "css/bootstrap.min.css"
 	+ '">'
+);
+
+document.writeln(
+	'<meta name="viewport" content="width=device-width, initial-scale=1.0">'
 );
 
 document.writeln(
