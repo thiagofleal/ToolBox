@@ -27,7 +27,7 @@ document.writeln(
 document.writeln(
 	'<script '
 	+ 'src="'
-	+ frameworkPath() + "js/jquery.mask.min.js"
+	+ frameworkPath() + "js/bootstrap.min.js"
 	+ '"></script>'
 );
 
@@ -56,10 +56,3 @@ document.writeln(
 document.writeln(
 	'<![endif]-->'
 );
-
-window.onload = function(){
-	var script = document.createElement('script');
-	script.type = "text/javascript";
-	script.src = frameworkPath() + "js/bootstrap.min.js";
-	document.body.appendChild(script);
-};
